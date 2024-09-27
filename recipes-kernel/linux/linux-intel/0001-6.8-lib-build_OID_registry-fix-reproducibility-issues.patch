@@ -1,7 +1,7 @@
-From 2fca0fd719812ea2ff67630b01355aa80481623e Mon Sep 17 00:00:00 2001
+From 5e919368eaabcfbd91e8d61922849dc37622cea0 Mon Sep 17 00:00:00 2001
 From: Bruce Ashfield <bruce.ashfield@gmail.com>
 Date: Sun, 10 Jul 2022 22:56:53 -0400
-Subject: [PATCH] lib/build_OID_registry: fix reproducibility issues
+Subject: [PATCH 2/2] lib/build_OID_registry: fix reproducibility issues
 
 The script build_OID_registry captures the full path of itself
 in the generated data. This causes reproduciblity issues as the
@@ -44,5 +44,5 @@ index d7fc32ea8ac2..f6de0a7f7457 100755
  
  #
 -- 
-2.36.1
+2.34.1
 
